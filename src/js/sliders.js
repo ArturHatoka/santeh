@@ -8,5 +8,21 @@ $(document).ready(function () {
         dots: true,
         zIndex: 500,
     });
+    //Иниц. слайдера отзывов на главной
+    $('.review__slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        zIndex: 500,
+    });
+    //Иниц. слайдера работ на главной
+    $('.works__slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        zIndex: 500,
+    });
 });
 
