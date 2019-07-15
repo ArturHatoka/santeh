@@ -403,4 +403,80 @@ section{
     width: 50%;
     height: 400px;
   }
+  &__contacts{
+    position: relative;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 0;
+    & a{
+      position: relative;
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 10px;
+      padding: 5px 10px;
+      font-weight: bold;
+      transition: background-color .2s;
+      &:hover{
+        background: #f6f6f6;
+        transition: background-color .2s;
+      }
+      & img{
+        margin-right: 5px;
+      }
+    }
+  }
+  &__tel{
+    color: $red;
+  }
+  &__mail{
+    color: $blue;
+  }
+  &__time{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: white;
+  }
+  &__buttons{
+    position: relative;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 0;
+  }
+  &__button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: background-color .2s;
+    border: 0 none;
+    cursor: pointer;
+    &:hover{
+      background: #f6f6f6;
+      transition: background-color .2s;
+    }
+    & img{
+      margin-right: 5px;
+    }
+  }
+  &__copyright{
+    position: relative;
+    display: flex;
+    align-items: center;
+    //font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: white;
+  }
 }
