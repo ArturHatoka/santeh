@@ -7,6 +7,8 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         zIndex: 500,
+        autoplay: true,
+        autoplaySpeed: 1000,
     });
     //Иниц. слайдера отзывов на главной
     $('.review__slider').slick({
@@ -15,6 +17,8 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         zIndex: 500,
+        autoplay: true,
+        autoplaySpeed: 1000,
     });
     //Иниц. слайдера работ на главной
     $('.works__slider').slick({
@@ -23,6 +27,8 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         zIndex: 500,
+        autoplay: true,
+        autoplaySpeed: 1000,
     });
 });
 

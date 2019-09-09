@@ -347,3 +347,41 @@ template {
 [hidden] {
   display: none;
 }
+
+
+.main__request{position:relative;display:flex;width:100%;background: rgba(73, 133, 208, 0.51);flex-direction:column;padding:100px 0;align-items:center;justify-content:center;background-size:cover;background-blend-mode:multiply}
+.main__request .request__title--white{color:#001334;font-size:36px;font-weight:400;line-height:22.93px;position:relative;display:flex;align-items:center;justify-content:center;color:#fff}
+.main__request .request__title--white hr{position:absolute;display:block;border:0 none;border-top:3px solid #4985d0;width:65px;top:-30px}
+.main__request .request__title--white hr{border-top:3px solid #fff}
+.main__request .request__form{width:100%;max-width:1170px;border-radius:10px;background-color:#ffffff;position:relative;display:flex;align-items:center;justify-content:center;margin:50px 0 15px}
+.main__request .request__form input{color:#858585;font-size:14px;font-weight:400;line-height:24px;text-transform:uppercase;letter-spacing:0.6px;padding:15px 35px;border-radius:35px;border:2px solid #dadada;background-color:#ffffff;width:25%;margin:0 20px;outline:none}
+.main__request .request__form input:hover{border:2px solid #4985d0
+}
+.main__request .request__form input:focus{border:2px solid #4985d0;color:#001334}
+.main__request .request__form input:valid{color:#001334}
+.main__request .request__form input[type=submit]{position:relative;display:flex;color:#ffffff;font-size:14px;font-weight:400;line-height:22.93px;text-transform:uppercase;text-decoration:none;padding:13px 45px;border-radius:35px;border:2px solid #ffffff;transition:.2s;text-shadow:0 0 2px black;color: #4985d0;font-size:14px;font-weight:400;line-height:24px;text-transform:uppercase;letter-spacing:0.7px;border:2px solid #00adef;text-shadow:0 0;box-shadow:0 0;padding:10px 30px;margin:50px 0;width:35%;margin-left:20px;cursor:pointer;padding:15px 35px;justify-content:center}
+.main__request .request__form input[type=submit]:hover{transition:.2s;border:2px solid #4985d0;background-color: #4985d0;text-shadow:0 0 0 rgba(0,0,0,0);box-shadow:0 0 0 rgba(0,0,0,0)}
+.main__request .request__form input[type=submit]:hover{color:white}
+.main__request .request__desc{color:#ffffff;font-size:18px;font-weight:400;line-height:24px}
+.request__background{position:fixed;width:100vw;height:100vh;z-index:1000;background:rgba(255,255,255,0.51);top:0;display:none;align-items:center;justify-content:center}
+.request__background.active{display:flex}
+.request__wrap{position:relative;display:flex;width:80%;background:white;flex-direction:column;padding:20px 0;box-shadow:0 0 20px #999}
+.request__close{position:absolute;top:20px;right:20px;width:30px;height:30px;background:url("../img/request_close.png");border:0 none;cursor:pointer;outline:none}
+.request__title{color:#001334;font-size:30px;font-weight:600;text-align:center}
+.request__subtitle{color:#001334;font-size:18px;text-align:center;font-weight:600;margin-top:10px}
+
+.main__text {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: fs;
+  flex-direction: column;
+  margin: 25px 0;
+  max-width: 1440px;
+}
+.main__text h2, .main__text h3{
+  align-self: center;
+}
+.main__text p{
+  margin: 5px 0;
+}
